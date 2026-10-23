@@ -1,0 +1,59 @@
+{
+ "bot": "paper-forex-copy",
+ "leader": "patou09",
+ "leader_url": "https://www.etoro.com/people/patou09",
+ "updated": "2026-10-23 21:30 AEDT",
+ "start_equity": 15000.0,
+ "equity": 15574.25,
+ "return_pct": 3.83,
+ "realized": 520.37,
+ "costs": 12.4,
+ "exposure": 81823.55,
+ "leverage": 5.25,
+ "maint_req": 1363.73,
+ "liquidated": null,
+ "closes": 10,
+ "wins": 10,
+ "positions": [
+  {
+   "pair": "GBPCAD",
+   "side": "short",
+   "entry": 1.88032,
+   "mark": 1.8737,
+   "notional": 27028.49,
+   "upnl": 95.49,
+   "leader_sl": 1.9061,
+   "leader_tp": 1.8713,
+   "leader_lev": 30,
+   "flag": "joined mid-trade",
+   "opened": "2026-10-21 14:01 AEDT"
+  },
+  {
+   "pair": "EURJPY",
+   "side": "short",
+   "entry": 175.457,
+   "mark": 175.364,
+   "notional": 27368.69,
+   "upnl": 14.51,
+   "leader_sl": 178.398,
+   "leader_tp": 175.139,
+   "leader_lev": 30,
+   "flag": "",
+   "opened": "2026-10-23 12:32 AEDT"
+  },
+  {
+   "pair": "EURCHF",
+   "side": "short",
+   "entry": 0.91993,
+   "mark": 0.92158,
+   "notional": 27426.36,
+   "upnl": -49.1,
+   "leader_sl": 0.93545,
+   "leader_tp": 0.91836,
+   "leader_lev": 30,
+   "flag": "",
+   "opened": "2026-10-23 12:32 AEDT"
+  }
+ ],
+ "paper_only": true
+}
