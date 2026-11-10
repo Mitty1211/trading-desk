@@ -1,0 +1,172 @@
+{
+ "bot": "paper-stock-copy",
+ "venue": "Hyperliquid HIP-3 xyz (tokenised stocks)",
+ "wallet": "0xcafe9392d902f6f517b1573371923ebf7ffa7b3b",
+ "updated": "2026-11-10 18:29 AEDT",
+ "start_equity": 15000.0,
+ "equity": 12721.1,
+ "return_pct": -15.19,
+ "realized": -2133.22,
+ "fees": 145.68,
+ "exposure": 0,
+ "leverage": 0.0,
+ "maint_req": 0,
+ "liquidated": null,
+ "paused": {
+  "time": "2026-11-07 15:08 AEDT",
+  "equity": 12738.508915393675,
+  "ref": 15928.205227984758,
+  "reason": "equity fell 20% from peak; run --resume to restart"
+ },
+ "blocked": {
+  "xyz:SKHX": {
+   "leader_szi": -8000.0,
+   "why": "trailing stop",
+   "time": "2026-10-21 18:22 AEDT"
+  },
+  "xyz:SNDK": {
+   "leader_szi": 270.0,
+   "why": "trailing stop",
+   "time": "2026-11-07 14:53 AEDT"
+  }
+ },
+ "peak": 15928.21,
+ "breaker_level": 12742.56,
+ "n_trades": 46,
+ "wins": 8,
+ "closes": 26,
+ "positions": [],
+ "recent": [
+  {
+   "time": "2026-11-04 04:07 AEDT",
+   "ts": 1793725655.2731943,
+   "coin": "xyz:SNDK",
+   "action": "reduce",
+   "side": "sell",
+   "size": 0.28655125607937526,
+   "price": 1119.989725,
+   "notional": 320.934462494744,
+   "fee": 0.2888410162452696,
+   "realized_pnl": -19.156925743176895,
+   "note": ""
+  },
+  {
+   "time": "2026-11-07 14:53 AEDT",
+   "ts": 1794023616.800726,
+   "coin": "xyz:SNDK",
+   "action": "close",
+   "side": "sell",
+   "size": 1.3519163348798926,
+   "price": 836.671455,
+   "notional": 1131.1098069422271,
+   "fee": 1.0179988262480044,
+   "realized_pnl": -473.40280068517103,
+   "note": "TRAILING STOP"
+  },
+  {
+   "time": "2026-11-07 14:53 AEDT",
+   "ts": 1794023616.800772,
+   "coin": "xyz:GOOGL",
+   "action": "open",
+   "side": "buy",
+   "size": 40.724215723463224,
+   "price": 285.98292,
+   "notional": 11646.430127305925,
+   "fee": 10.481787114575331,
+   "realized_pnl": 0.0,
+   "note": ""
+  },
+  {
+   "time": "2026-11-07 14:53 AEDT",
+   "ts": 1794023616.8007839,
+   "coin": "xyz:NVDA",
+   "action": "add",
+   "side": "sell",
+   "size": 0.22431944299959272,
+   "price": 187.62114250000002,
+   "notional": 42.087070180547215,
+   "fee": 0.03787836316249249,
+   "realized_pnl": 0.0,
+   "note": ""
+  },
+  {
+   "time": "2026-11-07 14:53 AEDT",
+   "ts": 1794023616.8007948,
+   "coin": "xyz:SMSN",
+   "action": "add",
+   "side": "buy",
+   "size": 0.22431944299959272,
+   "price": 142.5862575,
+   "notional": 31.984869861796497,
+   "fee": 0.028786382875616846,
+   "realized_pnl": 0.0,
+   "note": ""
+  },
+  {
+   "time": "2026-11-07 14:53 AEDT",
+   "ts": 1794023616.8008037,
+   "coin": "xyz:TSLA",
+   "action": "add",
+   "side": "sell",
+   "size": 0.22431944299959272,
+   "price": 358.86547750000005,
+   "notional": 80.50050402458288,
+   "fee": 0.07245045362212459,
+   "realized_pnl": 0.0,
+   "note": ""
+  },
+  {
+   "time": "2026-11-07 15:08 AEDT",
+   "ts": 1794024514.6044977,
+   "coin": "xyz:NVDA",
+   "action": "close",
+   "side": "buy",
+   "size": 1.170365059582377,
+   "price": 187.41366,
+   "notional": 219.3423993524513,
+   "fee": 0.19740815941720619,
+   "realized_pnl": 30.786053237476008,
+   "note": "CIRCUIT BREAKER"
+  },
+  {
+   "time": "2026-11-07 15:08 AEDT",
+   "ts": 1794024514.6045125,
+   "coin": "xyz:SMSN",
+   "action": "close",
+   "side": "sell",
+   "size": 1.170365059582377,
+   "price": 142.398765,
+   "notional": 166.6585390836819,
+   "fee": 0.1499926851753137,
+   "realized_pnl": -24.407957432703377,
+   "note": "CIRCUIT BREAKER"
+  },
+  {
+   "time": "2026-11-07 15:08 AEDT",
+   "ts": 1794024514.6045194,
+   "coin": "xyz:TSLA",
+   "action": "close",
+   "side": "buy",
+   "size": 1.170365059582377,
+   "price": 358.9243725,
+   "notional": 420.07254460652973,
+   "fee": 0.37806529014587675,
+   "realized_pnl": 19.305183309121063,
+   "note": "CIRCUIT BREAKER"
+  },
+  {
+   "time": "2026-11-07 15:08 AEDT",
+   "ts": 1794024514.604525,
+   "coin": "xyz:GOOGL",
+   "action": "close",
+   "side": "sell",
+   "size": 40.724215723463224,
+   "price": 285.51717,
+   "notional": 11627.462823832724,
+   "fee": 10.464716541449452,
+   "realized_pnl": -18.967303473201255,
+   "note": "CIRCUIT BREAKER"
+  }
+ ],
+ "paper_only": true
+}
